@@ -20,7 +20,7 @@ variable "release_version" {
 
 variable "min_node_count" {
   type    = number
-  default = 3
+  default = 4
 }
 
 variable "max_node_count" {

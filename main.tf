@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "CHANGE_BUCKET"
+    bucket = "gitops-demo"
     key    = "terraform/state"
     region = "ap-south-1"
   }

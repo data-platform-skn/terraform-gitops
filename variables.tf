@@ -20,12 +20,12 @@ variable "release_version" {
 
 variable "min_node_count" {
   type    = number
-  default = 4
+  default = 2
 }
 
 variable "max_node_count" {
   type    = number
-  default = 9
+  default = 5
 }
 
 variable "machine_type" {
